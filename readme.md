@@ -120,6 +120,8 @@ python run_COW.py \
 
  ![whole](https://github.com/oho43/COW/blob/main/assets/whole.png)
 
+
+
 ## More Results
 
 ### Generalized Visual Consition
@@ -147,6 +149,3 @@ COW offers a flexible change in the visual condition region according to the tex
 }
 ```
 
-
-
-> datasets (CelebA-HQ, COCO, and ImageNet), and that TF-ICON surpasses prior baselines in
