@@ -128,7 +128,7 @@ python run_COW.py \
 
 ![generalized](https://github.com/oho43/COW/blob/main/assets/generalized.png)
 
-### Cross-Domain Transforma
+### Cross-Domain Transformation
 
 ![cross_domian](https://github.com/oho43/COW/blob/main/assets/cross_domian.png)
 
