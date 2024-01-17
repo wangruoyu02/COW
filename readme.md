@@ -6,7 +6,7 @@ Ruoyu Wang, Yongqi Yang, ZhiHao Qian, Ye Zhu, Yu Wu
 
 [Paper](https://arxiv.org/abs/2306.08247) | [Project Page](https://oho43.github.io/COW/)
 
-![level](readme.assets/level-1705478439133.png)
+![level](https://github.com/oho43/COW/blob/main/assets/level.png)
 
 
 
@@ -16,7 +16,7 @@ Ruoyu Wang, Yongqi Yang, ZhiHao Qian, Ye Zhu, Yu Wu
 
 We propose COW, **a training-free pipeline for one-shot versatile customization application scenarios**. We investigate the diffusion (physics) in diffusion (machine learning) properties and propose our Cyclic One-Way Diffusion (COW) method to control the direction of diffusion phenomenon given a pre-trained frozen diffusion model for versatile customization application scenarios, where the low-level pixel information from the conditioning needs to be preserved. 
 
-![pipeline](readme.assets/pipeline.png)
+![pipeline](https://github.com/oho43/COW/blob/main/assets/pipeline.png)
 
 ## Setup
 
@@ -118,23 +118,23 @@ python run_COW.py \
     --seed_y_offset 0
 ```
 
- ![whole](readme.assets/whole.png)
+ ![whole](https://github.com/oho43/COW/blob/main/assets/whole.png)
 
 ## More Results
 
 ### Generalized Visual Consition
 
-![generalized](readme.assets/generalized.png)
+![generalized](https://github.com/oho43/COW/blob/main/assets/generalized.png)
 
 ### Cross-Domain Transforma
 
-![cross_domian](readme.assets/cross_domian-1705478250690.png)
+![cross_domian](https://github.com/oho43/COW/blob/main/assets/cross_domian.png)
 
 ### Tradeoffs between Text and Visual Conditions
 
 COW offers a flexible change in the visual condition region according to the text guidance. The level of changes that may occur within the seed image depends on the discrepancy between textual and visual conditions.
 
-![balance](readme.assets/balance.png)
+![balance](https://github.com/oho43/COW/blob/main/assets/balance.png)
 
 ## Citing
 
@@ -149,16 +149,4 @@ COW offers a flexible change in the visual condition region according to the tex
 
 
 
-
-
-
-
-
-
-
-
-> datasets (CelebA-HQ, COCO, and ImageNet), and that TF-ICON surpasses prior baselines in versatile visual domains.
-
-[![teaser](https://github.com/Shilin-LU/TF-ICON/raw/main/assets/tf-icon.png)](https://github.com/Shilin-LU/TF-ICON/blob/main/assets/tf-icon.png)
-
-> \
+> datasets (CelebA-HQ, COCO, and ImageNet), and that TF-ICON surpasses prior baselines in
