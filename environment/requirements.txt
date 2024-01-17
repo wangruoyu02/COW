@@ -1,0 +1,10 @@
+ftfy
+opencv-python
+ipywidgets
+matplotlib
+pyrallis
+torch
+diffusers==0.17.1
+transformers
+jupyter
+accelerate
