@@ -22,7 +22,7 @@ We propose COW, **a training-free pipeline for one-shot versatile customization 
 
 ### Hugging Face Diffusers Library
 
-Our code relies also on Hugging Face's [diffusers](https://github.com/huggingface/diffusers) library (diffusers==0.17.1) for downloading the Stable Diffusion v2.1 model.
+Our code relies on Hugging Face's [diffusers](https://github.com/huggingface/diffusers) library (diffusers==0.17.1) for downloading the Stable Diffusion v2.1 model.
 
 
 
