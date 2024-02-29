@@ -20,18 +20,22 @@ We propose COW, **a training-free pipeline for one-shot versatile customization 
 
 ## Setup
 
-Our codebase is built on Stable Diffusion (Implementation of [diffusers](https://github.com/huggingface/diffusers)). Thanks very much.
+### Hugging Face Diffusers Library
 
-The codebases are built on top of [diffusers](https://github.com/huggingface/diffusers). Thanks very much.
+Our code relies also on Hugging Face's [diffusers](https://github.com/huggingface/diffusers) library (diffusers==0.17.1) for downloading the Stable Diffusion v2.1 model.
+
+
 
 ### Creating a Conda Environment
 
 ```
 git clone https://github.com/oho43/COW.git
 cd COW
-conda env create -f cow_env.yaml
-conda activate cow_ldm
+conda activate your_ldm_env
+pip install diffusers==0.17.1 //recommended version
 ```
+
+
 
 ### Downloading Stable-Diffusion Weights
 
