@@ -32,7 +32,7 @@ Our code relies on Hugging Face's [diffusers](https://github.com/huggingface/dif
 git clone https://github.com/oho43/COW.git
 cd COW
 conda activate your_ldm_env
-pip install diffusers==0.17.1 //recommended version
+pip install diffusers==0.27 //recommended version
 ```
 
 
