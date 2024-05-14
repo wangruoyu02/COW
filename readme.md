@@ -145,10 +145,10 @@ COW offers a flexible change in the visual condition region according to the tex
 ## Citing
 
 ```
-@article{yang2023diffusion,
-  title={Diffusion in Diffusion: Cyclic One-Way Diffusion for Text-Vision-Conditioned Generatio},
-  author={Yang, Yongqi and Wang, Ruoyu and Qian, Zhihao and Zhu, Ye and Wu, Yu},
-  journal={arXiv preprint arXiv:2306.08247},
+@inproceedings{wang2023diffusion,
+  title={Diffusion in Diffusion: Cyclic One-Way Diffusion for Text-Vision-Conditioned Generation},
+  author={Wang, Ruoyu and Yang, Yongqi and Qian, Zhihao and Zhu, Ye and Wu, Yu},
+  booktitle={The Twelfth International Conference on Learning Representations},
   year={2023}
 }
 ```
