@@ -174,7 +174,7 @@ class COWPipeline(StableDiffusionPipeline):
             bg_tmp = self.inject_noise(x_t=bg_tmp, start_step=replace_step,end_step=back_step)
             # back -> replace, and replace in between run
             bg_tmp = self.sample_and_replace_with_mask(x=bg_tmp, last_step=back_step, end_step=replace_step, back_step=back_step,
-                                         replace_step_list=back_to_replace, eta=0., prompt=prompt, generator=generator,
+                                         replace_step_list=back_to_replace, eta=1., prompt=prompt, generator=generator,
                                          face_back_to_front=face_back_to_replace, latent_mask=latent_mask,sample_mask=sample_mask, num_inference_steps=num_inference_steps)
             end_time = time.time()
             cyc_time = end_time-start_time
